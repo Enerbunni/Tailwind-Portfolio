@@ -6,6 +6,7 @@
     "tw-elements": "^1.0.0-alpha12"
   },
   "scripts": {
-    "build": "tailwindcss -i ./public/input.css -o ./dist/output.css --watch"
+    "prod": "tailwindcss -i ./public/input.css -o ./dist/output.css",
+    "dev": "tailwindcss -i ./public/input.css -o ./dist/output.css --watch"
   }
 }
