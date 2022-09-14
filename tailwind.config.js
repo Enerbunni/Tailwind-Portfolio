@@ -1,6 +1,9 @@
 module.exports = {
-    content: ["./public/**/*.{html,js}", "./node_modules/tw-elements/dist/js/**/*.js", "./index.html", "**/*.{html, js}", "**/**/*.{html, js}"],
+  purge: {
+    enable: process.env.NODE_ENV !== 'development',
+    content: ["./public/**/*.{html,js}", "./node_modules/tw-elements/dist/js/**/*.js", "./*.{html,js,ts}"],
     plugins: [
       require('tw-elements/dist/plugin')
     ],
   }
+}
