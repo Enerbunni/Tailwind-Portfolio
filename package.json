@@ -8,5 +8,20 @@
   "scripts": {
     "prod": "tailwindcss -i ./public/input.css -o ./dist/output.css",
     "dev": "tailwindcss -i ./public/input.css -o ./dist/output.css --watch"
-  }
+  },
+  "name": "tailwind-portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "index",
+  "typings": "src/index",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enerbunni/Tailwind-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enerbunni/Tailwind-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Enerbunni/Tailwind-Portfolio#readme"
 }
