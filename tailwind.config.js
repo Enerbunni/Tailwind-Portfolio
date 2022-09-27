@@ -1,5 +1,5 @@
 module.exports = {
-    content: ["./public/**/*.{html,js}", "./node_modules/tw-elements/dist/js/**/*.js", './**/*.{html,js,ts}'], //prob bad
+    content: ["./public/**/*.{html,js}", "./node_modules/tw-elements/dist/js/**/*.js"],
     plugins: [
       require('tw-elements/dist/plugin')
     ],
